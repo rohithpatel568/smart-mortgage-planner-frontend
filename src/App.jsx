@@ -7,7 +7,7 @@ import axios from 'axios';
 import './App.css';
 
 const API_URL = process.env.NODE_ENV === 'production' 
-  ? 'https://smart-mortgage-planner-backend-production-9506.up.railway.app//api' 
+  ? 'https://smart-mortgage-planner-backend-production-9506.up.railway.app/api' 
   : 'http://localhost:3000/api';
 
 const App = () => {
