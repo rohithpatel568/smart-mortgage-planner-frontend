@@ -1,0 +1,69 @@
+.loan-form {
+  margin-bottom: 2rem;
+}
+
+.loan-form h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.loan-form form {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+.loan-form .form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.loan-form label {
+  margin-bottom: 0.25rem;
+  font-weight: 500;
+}
+
+.loan-form input {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.loan-form button {
+  padding: 0.75rem;
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.loan-form button:hover {
+  background-color: #1e40af;
+}
+
+@media (min-width: 640px) {
+  .loan-form form {
+    grid-template-columns: 1fr 1fr;
+  }
+  .loan-form button {
+    grid-column: span 2;
+  }
+}
+
+.dark .loan-form input {
+  background-color: #374151;
+  border-color: #4b5563;
+  color: #f3f4f6;
+}
+
+.dark .loan-form button {
+  background-color: #1e40af;
+}
+
+.dark .loan-form button:hover {
+  background-color: #2563eb;
+}

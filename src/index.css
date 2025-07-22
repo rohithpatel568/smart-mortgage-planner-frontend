@@ -1,0 +1,11 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f3f4f6;
+  color: #111827;
+}
+
+.dark body {
+  background-color: #1f2937;
+  color: #f3f4f6;
+}
